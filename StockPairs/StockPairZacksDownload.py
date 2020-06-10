@@ -1,9 +1,12 @@
+# Veronika Klevarova
+# 2020-06-01
+# This script performs a download of the following ZACKS data: master tables, supplement tables, equity prices tables
+
 import quandl 
 import pandas as pd
 import glob
 import os
 import subprocess
-import py7zr
 from datetime import date
 from pathlib import Path
 import requests

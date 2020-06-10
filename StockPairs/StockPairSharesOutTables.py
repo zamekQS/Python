@@ -1,5 +1,7 @@
-# Reads and saves content of shares supplement tables in N:\DataTrhu-ZACKS\SharesOutSupplement
-import numpy as np
+# Veronika Klevarova
+# 2020-06-01
+# This script reads and uploads the content of supplement tables to the SQL database, it also creates a summary .csv
+
 import os
 import pymysql
 import glob

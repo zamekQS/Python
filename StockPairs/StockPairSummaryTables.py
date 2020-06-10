@@ -1,4 +1,7 @@
-# Reads and saves content of equity prices and supplement tables in N:\DataTrhu-ZACKS\EquityPrices and \SharesOutSupplement
+# Veronika Klevarova
+# 2020-06-01
+# This script reads and processes equity prices data (+ shares out data), it uploads the calculated summary tables to the SQL database
+
 import numpy as np
 import os
 import pymysql
@@ -6,8 +9,6 @@ import glob
 import pandas as pd
 from datetime import datetime, date
 from datetime import timedelta
-import time 
-import pyarrow
 
 def fun_summary_table(delete_full_table_summ,delete_table,datadir_equity,datadir_tmp,minimum_date,datadir_save_csv,save_csv,save_feather):
     print("Processing of the summary tables was initiated.")

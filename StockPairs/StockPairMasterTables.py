@@ -1,4 +1,7 @@
-# Reads and saves content of master tables in N:\DataTrhu-ZACKS\MasterTable
+# Veronika Klevarova
+# 2020-06-01
+# This script reads and uploads the content of master tables to the SQL database, it also creates a summary .csv
+
 import numpy as np
 import os
 import pymysql
